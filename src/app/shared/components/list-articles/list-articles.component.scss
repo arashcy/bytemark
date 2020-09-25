@@ -1,0 +1,13 @@
+.news-card{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+div.news{
+text-align: center
+}
+div.list{ //used for responsive view
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1fr))
+}
